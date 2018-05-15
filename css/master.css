@@ -41,8 +41,8 @@ section{
 
 /* Splash Image */
 #splash{
-    background-image: url("../images/cover-alt.jpg");
     padding: 5em 0;
+    background-image: url("../images/cover-alt.jpg");
 }
 .title, .meeting{
     text-align: center;
@@ -58,8 +58,8 @@ section{
 
 /* Content */
 #content{
-    background-color: #FFF;
     padding: 1em;
+    background-color: #edfff8;
 }
 #content .twocol{
     align-items:baseline;
@@ -68,29 +68,22 @@ section{
     margin: 0 1em;
 }
 #content h1{
-    color: #00a5a5;
-    text-decoration: underline;
+    /* color: #00a5a5; */
+    /* text-decoration: underline; */
     text-align: center;
 }
 
 /* Call to Action */
 #cta{
-    background-color: #dca7ff;
     padding: 1em;
+    background-color: #e7d2ff;
     text-align: center;
 }
-#cta input{
-    margin: 1em;
-    padding: 5px;
-    font-size: 1em;
-    margin-right: 0;
-    display: inline-block
-}
-#cta button{
-    font-size: 1em;
-    padding: 5px;
-    margin-left: -5px;
-    display: inline-block;
+
+/* Rochester Blockchain Scene */
+#local{
+    padding: 1em;
+    background-color: #FFF;
 }
 
 /* Footer */

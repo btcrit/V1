@@ -1,5 +1,5 @@
 /*This file was created automatically with the makeMaster.py script.
-Time of creation: 2018-06-16 01:36:19.308814*/
+Time of creation: 2018-06-16 01:52:37.519401*/
 
 /* !!! Begin File calltoaction.css !!! */
 
@@ -119,7 +119,7 @@ a:active { color:#F36E21; }
 /* Splash Image */
 #splash{
     z-index: -1;
-    padding: 5em 0;
+    padding: 8em 0;
     color: white;
     background-image: url("../images/cover-alt.jpg");
     background-position: relative;
@@ -129,7 +129,7 @@ a:active { color:#F36E21; }
     background-size: 100% 100%;
 }
 
-#lastmeeting{
+#lastmeeting a{
   font-size: 1em;
 }
 

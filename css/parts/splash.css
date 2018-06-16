@@ -1,7 +1,7 @@
 /* Splash Image */
 #splash{
     z-index: -1;
-    padding: 5em 0;
+    padding: 8em 0;
     color: white;
     background-image: url("../images/cover-alt.jpg");
     background-position: relative;
@@ -11,7 +11,7 @@
     background-size: 100% 100%;
 }
 
-#lastmeeting{
+#lastmeeting a{
   font-size: 1em;
 }
 

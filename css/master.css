@@ -1,14 +1,18 @@
-This file was created automatically with the makeMaster.py script.
-Time of creation: 2018-06-15 20:12:06.081131
+/*This file was created automatically with the makeMaster.py script.
+Time of creation: 2018-06-15 23:19:28.092930*/
 
 /* !!! Begin File calltoaction.css !!! */
 
 /* Call to Action */
 #cta{
     color: white;
-    padding: 1em;
-    background-color: #513127;
+    padding: 2em;
+    background-color: #333;
     text-align: center;
+}
+
+#cta .h1 .p{
+  color: white;
 }
 
 /* !!! Begin File contact.css !!! */
@@ -23,15 +27,34 @@ div.contact {
 }
 
 
+/* !!! Begin File content.css !!! */
+
+/* Content */
+#content{
+    padding: 2em;
+    background-color: #FFF;
+}
+
+#content .twocol{
+    align-items:baseline;
+}
+
+#content .column{
+    margin: 0 1em;
+}
+
+#content h1{
+    text-align: center;
+}
+
 /* !!! Begin File footer.css !!! */
 
 /* Footer */
 footer{
     color: white;
     background-color: #513127;
-    padding: 1em;
+    padding: 2em;
     text-align: center;
-    padding: 0.5em;
 }
 
 
@@ -61,23 +84,6 @@ section{
     flex: 50%;
 }
 
-/* Content */
-#content{
-    padding: 1em;
-    background-color: #F36E21;
-}
-#content .twocol{
-    align-items:baseline;
-}
-#content .column{
-    margin: 0 1em;
-}
-#content h1{
-    /* color: #00a5a5; */
-    /* text-decoration: underline; */
-    text-align: center;
-}
-
 /* Link Colors */
 a {  }
 a:link { color:#F36E21; }
@@ -98,7 +104,7 @@ a:active { color:#F36E21; }
 
 /* Rochester Blockchain Scene */
 #local{
-    padding: 1em;
+    padding: 3em;
     background-color: #FFF;
 }
 
@@ -106,6 +112,7 @@ a:active { color:#F36E21; }
 
 /* Splash Image */
 #splash{
+    padding: 5em 0;
     color: white;
     /*padding: 5em 0;*/
     background-image: url("../images/cover-alt.jpg");
@@ -113,21 +120,38 @@ a:active { color:#F36E21; }
     position: relative;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 150%;
 }
 
+#lastmeeting{
+  font-size: 1em;
+}
 
-
-.title, .meeting{
+#title, #meeting{
     text-align: center;
 }
-.title h1{
+
+#title h1{
     color: white;
     font-size: 4em;
     margin: 0;
+}'
+#meeting{
+    font-size: 3em;
 }
-.meeting{
-    font-size: 2em;
+
+@media screen and (max-width: 600px) {
+  #splash{
+    padding: 5em 0;
+    color: white;
+    /*padding: 5em 0;*/
+    background-image: url("../images/cover-alt.jpg");
+    background-position: relative;
+    position: relative;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+  }
 }
 
 /* !!! Begin File topnav.css !!! */
@@ -147,14 +171,14 @@ a:active { color:#F36E21; }
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.active {
+.topnav .active {
   background-color: #F36E21;
   color: black;
 }
@@ -169,7 +193,7 @@ a:active { color:#F36E21; }
 }
 
 .dropdown .dropbtn {
-    font-size: 17px;    
+    font-size: 17px;
     border: none;
     outline: none;
     color: white;
@@ -190,7 +214,7 @@ a:active { color:#F36E21; }
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -211,33 +235,50 @@ a:active { color:#F36E21; }
     display: block;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
+    background-color: #333;
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .topnav.responsive a:not(:first-child) {
+    background-color: #333;
+  }
+  .topnav.responsive a{
     float: none;
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
+  }
+  .topnav .active {
+    background-color: #F36E21;
+    color: black;
+    text-align: left;
+  }
+  .topnav {
+    background-color: #F36E21;
   }
 }

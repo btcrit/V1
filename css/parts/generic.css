@@ -22,23 +22,6 @@ section{
     flex: 50%;
 }
 
-/* Content */
-#content{
-    padding: 1em;
-    background-color: #F36E21;
-}
-#content .twocol{
-    align-items:baseline;
-}
-#content .column{
-    margin: 0 1em;
-}
-#content h1{
-    /* color: #00a5a5; */
-    /* text-decoration: underline; */
-    text-align: center;
-}
-
 /* Link Colors */
 a {  }
 a:link { color:#F36E21; }

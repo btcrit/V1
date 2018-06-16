@@ -1,144 +1,140 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>BTCRIT</title>
-        <link rel="stylesheet" href="./css/master.css" title="master">
-        <link rel="stylesheet" href="./css/topnav.css" title="topnav">
+  <head>
+    <meta charset="utf-8">
+      <title>BTCRIT</title>
+      <link rel="stylesheet" href="./css/master.css" title="master">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <!-- Title and Nav section -->
-        <div style="topnav" class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <div class="dropdown">
-            <button class="dropbtn">Dropdown 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div> 
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-        <script>
-        function myFunction() {
+        </head>
+        <body>
+          <!-- Title and Nav section -->
+          <div style="topnav" class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          <script>
+            function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
-                x.className += " responsive";
+            x.className += " responsive";
             } else {
-                x.className = "topnav";
+            x.className = "topnav";
             }
-        }
-        </script>
-        <!-- Splash Section -->
-        <section id="splash">
+            }
+          </script>
+          <!-- Splash Section -->
+          <section id="splash">
             <div class="notwide">
-                <!-- Two Columns - Title, and Next Meeting. -->
-                <div class="twocol">
-                    <div class="column title">
-                        <img src="./images/hamster.svg" alt="">
-                        <h1>BTCRIT</h1>
+              <!-- Two Columns - Title, and Next Meeting. -->
+              <div class="twocol">
+                <div class="column">
+                  <section id="title">
+                    <img src="./images/hamster.svg" alt="">
+                      <h1>BTCRIT</h1>
+                    </section>
+                  </div>
+                  <div class="column">
+                    <section id="meeting">
+                      <h1>Next Meeting</h1>
+                      <p>
+                        Fall 2018,<br/>
+                        TBD
+                      </p>
+                      <p>
+                        <section id="lastmeeting">
+                          <a href="minutes/Minutes17May2018.pdf">Minutes from our Last Meeting</a>
+                        </section>
+                      </section>
                     </div>
-                    <div class="column meeting">
-                        <h1>Next Meeting</h1>
-                        <p>
-                            Fall 2018,<br/>
-                            TBD
-                        </p>
-                        <p>
-                        <a href="minutes/Minutes17May2018.pdf"><font size="2">Minutes from our Last Meeting</font></a>
-                    </div>
+                  </div>
                 </div>
-            </div>
-        </section>
-        <!-- Content Section -->
-        <section id="content">
-            <div class="notwide">
-                <div class="twocol">
+              </section>
+              <!-- Content Section -->
+              <section id="content">
+                <div class="notwide">
+                  <div class="twocol">
                     <div class="column">
-                        <h1>We're a club at RIT.</h1>
-                        <p>
-                            Meetings are on Tuesday evenings. We'll discuss
-                            assorted things, go on field trips to a cafe, and
-                            every once in a while have a guest speaker.
-                        </p>
-                        <p>
-                            Hack Nights are on Fridays. We'll drag out our
-                            laptops to build websites (like this one), have
-                            trade-bot competitions, and other general activites.
-                        </p>
+                      <h1>We're a club at RIT.</h1>
+                      <p>
+                        Meetings are on Tuesday evenings. We'll discuss
+                        assorted things, go on field trips to a cafe, and
+                        every once in a while have a guest speaker.
+                      </p>
+                      <p>
+                        Hack Nights are on Fridays. We'll drag out our
+                        laptops to build websites (like this one), have
+                        trade-bot competitions, and other general activites.
+                      </p>
                     </div>
                     <div class="column">
-                        <h1>We Like Cryptocurrencies.</h1>
-                        <p>
-                            From Bitcoin to Destler Dubloons, we'll discuss it
-                            all. Big blocks vs Off-Chain Transactions? Traditional
-                            blockchains or DAG-based? You decide.
-                        </p>
-                        <p>
-                            We also like decentralized systems in general. IPFS
-                            is the next internet and I2P is the next internet.
-                            TOR is the next internet, and Ethereum with be
-                            the next internet.
-                        </p>
+                      <h1>We Like Cryptocurrencies.</h1>
+                      <p>
+                        From Bitcoin to Destler Dubloons, we'll discuss it
+                        all. Big blocks vs Off-Chain Transactions? Traditional
+                        blockchains or DAG-based? You decide.
+                      </p>
+                      <p>
+                        We also like decentralized systems in general. IPFS
+                        is the next internet and I2P is the next internet.
+                        TOR is the next internet, and Ethereum with be
+                        the next internet.
+                      </p>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </section>
-        <!-- Call To Action -->
-        <section id="cta">
-            <div class="notwide">
-                <h1>Can we have your email?</h1>
-                <p>
+              </section>
+              <!-- Call To Action -->
+              <section id="cta">
+                <div class="notwide">
+                  <h1>Can we have your email?</h1>
+                  <p>
                     We'll tell you weekly what the topic of our next meeting is,
                     as well as details on club events and crypto news.
-                </p>
-                <p>
+                  </p>
+                  <p>
                     Just hop over into our
                     <a href="https://riot.im/app/#/room/#btcrit:matrix.org">Matrix</a>
                     channel. Ask whatever questions you'd like,
                     and we'll let you know where to go from there.
-                </p>
-            </div>
-        </section>
-        <!-- The Blockchain Scene in Rochester -->
-        <section id="local">
-            <div class="notwide">
-                <h1>The Blockchain Scene in Rochester</h1>
-                <p>
+                  </p>
+                </div>
+              </section>
+              <!-- The Blockchain Scene in Rochester -->
+              <section id="local">
+                <div class="notwide">
+                  <h1>The Blockchain Scene in Rochester</h1>
+                  <p>
                     <a href="https://www.krudco.com/"><b>Krudco Skate Shop</b></a> is run by some very friendly people.
                     Their online store accepts Bitcoin, but that doesn't mean you shouldn't
                     check them out in person.
-                </p>
-                <p>
+                  </p>
+                  <p>
                     <a href="https://www.poprochester.com/"><b>Pop Roc Cafe</b></a> has "Caffiene, Comics, and Culture". They also accept
                     BTC and ETH, and are a generally awesome place to hang out.
-                </p>
-            </div>
-        </section>
-        <!-- Contact Box -->
-        <div class="contact">
-          <a href="https://discord.gg/gJVbWHJ"><img src="./images/discord.png" alt="Join us on Discord!" style="width:2em;height:2em;"></a>
-          </br>
-          <a href="https://riot.im/app/#/room/#btcrit:matrix.org"><img src="./images/riot.png" alt="Let's start a Riot!" style="width:2em;height:2em;"></a>
-        </div>
-        <!-- Footer -->
-        <footer>
-            <div class="notwide">
-                <p>
-                    &copy; Blockchain Technology Club @ RIT 2018
-                </p>
-            </div>
-        </footer>
-    </body>
-</html>
+                  </p>
+                </div>
+              </section>
+              <!-- Contact Box -->
+              <div class="contact">
+                <a href="https://discord.gg/gJVbWHJ"><img src="./images/discord.png" alt="Join us on Discord!" style="width:2em;height:2em;"></a>
+                </br>
+                <a href="https://riot.im/app/#/room/#btcrit:matrix.org"><img src="./images/riot.png" alt="Let's start a Riot!" style="width:2em;height:2em;"></a>
+                </div>
+                <!-- Footer -->
+                <footer>
+                  <div class="notwide">
+                    <p>
+                      &copy; Blockchain Technology Club @ RIT 2018
+                    </p>
+                  </div>
+                </footer>
+              </body>
+            </html>
 
-<!--
+            <!--
 <a href="https://riot.im/app/#/room/#btcrit:matrix.org">
  -->
+            

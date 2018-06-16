@@ -8,7 +8,7 @@
     position: relative;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 150%;
+    background-size: 100% 100%;
 }
 
 #lastmeeting{
@@ -23,13 +23,7 @@
     color: white;
     font-size: 4em;
     margin: 0;
-}'
+}
 #meeting{
     font-size: 3em;
-}
-
-@media screen and (max-width: 600px) {
-  #splash{
-    background-size: 450%;
-  }
 }

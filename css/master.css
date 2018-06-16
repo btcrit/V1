@@ -1,5 +1,5 @@
 /*This file was created automatically with the makeMaster.py script.
-Time of creation: 2018-06-16 00:45:00.468560*/
+Time of creation: 2018-06-16 01:16:15.437687*/
 
 /* !!! Begin File calltoaction.css !!! */
 
@@ -126,7 +126,7 @@ a:active { color:#F36E21; }
     position: relative;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 150%;
+    background-size: 100% 100%;
 }
 
 #lastmeeting{
@@ -141,15 +141,9 @@ a:active { color:#F36E21; }
     color: white;
     font-size: 4em;
     margin: 0;
-}'
+}
 #meeting{
     font-size: 3em;
-}
-
-@media screen and (max-width: 600px) {
-  #splash{
-    background-size: 450%;
-  }
 }
 
 /* !!! Begin File topnav.css !!! */

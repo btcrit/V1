@@ -1,0 +1,25 @@
+/* Splash Image */
+#splash{
+    color: white;
+    /*padding: 5em 0;*/
+    background-image: url("../images/cover-alt.jpg");
+    background-position: relative;
+    position: relative;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+
+.title, .meeting{
+    text-align: center;
+}
+.title h1{
+    color: white;
+    font-size: 4em;
+    margin: 0;
+}
+.meeting{
+    font-size: 2em;
+}

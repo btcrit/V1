@@ -1,5 +1,5 @@
 ('C:\\Users\\Daniel Jacob '
- 'Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster\\dist\\makeMaster.exe',
+ 'Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster\\dist\\makeMaster.exe',
  True,
  False,
  False,
@@ -12,7 +12,7 @@
  'makeMaster.pkg',
  [('out00-PYZ.pyz',
    'C:\\Users\\Daniel Jacob '
-   'Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster\\build\\makeMaster\\out00-PYZ.pyz',
+   'Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster\\build\\makeMaster\\out00-PYZ.pyz',
    'PYZ'),
   ('struct',
    'c:\\users\\daniel jacob '
@@ -36,7 +36,7 @@
    'PYSOURCE'),
   ('makeMaster',
    'C:\\Users\\Daniel Jacob '
-   'Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster\\makeMaster.py',
+   'Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster\\makeMaster.py',
    'PYSOURCE'),
   ('VCRUNTIME140.dll',
    'c:\\users\\daniel jacob '
@@ -80,17 +80,17 @@
    'EXTENSION'),
   ('base_library.zip',
    'C:\\Users\\Daniel Jacob '
-   'Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster\\build\\makeMaster\\base_library.zip',
+   'Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster\\build\\makeMaster\\base_library.zip',
    'DATA'),
   ('makeMaster.exe.manifest',
    'C:\\Users\\Daniel Jacob '
-   'Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster\\build\\makeMaster\\makeMaster.exe.manifest',
+   'Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster\\build\\makeMaster\\makeMaster.exe.manifest',
    'BINARY'),
   ('pyi-windows-manifest-filename makeMaster.exe.manifest', '', 'OPTION')],
  [],
  False,
  False,
- 1529107811,
+ 1529110649,
  [('run.exe',
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\run.exe',

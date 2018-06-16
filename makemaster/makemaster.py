@@ -25,8 +25,8 @@ def make_file():
     returns:
     a String of all the CSS files plus helpful information
     """
-    contents = ("This file was created automatically with the makeMaster.py script.\n"
-                + "Time of creation: " + str(datetime.datetime.now()))
+    contents = ("/*This file was created automatically with the makeMaster.py script.\n"
+                + "Time of creation: " + str(datetime.datetime.now()) + "*/")
 
     for filename in os.listdir('parts'):
         contents += "\n\n/* !!! Begin File " + filename + " !!! */\n\n"

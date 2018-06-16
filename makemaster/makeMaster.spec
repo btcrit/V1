@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['makeMaster.py'],
-             pathex=['C:\\Users\\Daniel Jacob Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster'],
+             pathex=['C:\\Users\\Daniel Jacob Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster'],
              binaries=[],
              datas=[],
              hiddenimports=[],

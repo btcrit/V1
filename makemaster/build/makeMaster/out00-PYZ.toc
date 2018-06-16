@@ -1,5 +1,5 @@
 ('C:\\Users\\Daniel Jacob '
- 'Behnke\\Documents\\GitHub\\btcrit.github.io\\makeMaster\\build\\makeMaster\\out00-PYZ.pyz',
+ 'Behnke\\Documents\\RIT3\\BTCRIT\\btcrit.github.io\\makemaster\\build\\makeMaster\\out00-PYZ.pyz',
  [('ntpath',
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\ntpath.py',
@@ -12,21 +12,13 @@
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\stringprep.py',
    'PYMODULE'),
-  ('stat',
-   'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\stat.py',
-   'PYMODULE'),
-  ('genericpath',
-   'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\genericpath.py',
-   'PYMODULE'),
-  ('posixpath',
-   'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\posixpath.py',
-   'PYMODULE'),
   ('fnmatch',
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\daniel jacob '
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\struct.py',
    'PYMODULE'),
   ('_compat_pickle',
    'c:\\users\\daniel jacob '
@@ -183,6 +175,14 @@
   ('platform',
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\platform.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\daniel jacob '
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\daniel jacob '
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\tokenize.py',
    'PYMODULE'),
   ('urllib.parse',
    'c:\\users\\daniel jacob '
@@ -456,21 +456,21 @@
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\doctest.py',
    'PYMODULE'),
-  ('pprint',
+  ('copy',
    'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\pprint.py',
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\copy.py',
    'PYMODULE'),
-  ('pickle',
+  ('stat',
    'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\pickle.py',
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\stat.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('genericpath',
    'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\tracemalloc.py',
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\genericpath.py',
    'PYMODULE'),
-  ('warnings',
+  ('posixpath',
    'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\warnings.py',
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\posixpath.py',
    'PYMODULE'),
   ('enum',
    'c:\\users\\daniel jacob '
@@ -508,21 +508,9 @@
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\subprocess.py',
    'PYMODULE'),
-  ('token',
-   'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\token.py',
-   'PYMODULE'),
-  ('copy',
-   'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\copy.py',
-   'PYMODULE'),
   ('textwrap',
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\textwrap.py',
-   'PYMODULE'),
-  ('struct',
-   'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\struct.py',
    'PYMODULE'),
   ('gettext',
    'c:\\users\\daniel jacob '
@@ -532,9 +520,21 @@
    'c:\\users\\daniel jacob '
    'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\argparse.py',
    'PYMODULE'),
-  ('tokenize',
+  ('pprint',
    'c:\\users\\daniel jacob '
-   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\tokenize.py',
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\daniel jacob '
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\daniel jacob '
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('warnings',
+   'c:\\users\\daniel jacob '
+   'behnke\\appdata\\local\\programs\\python\\python36-32\\lib\\warnings.py',
    'PYMODULE'),
   ('datetime',
    'c:\\users\\daniel jacob '

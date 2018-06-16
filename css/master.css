@@ -1,5 +1,5 @@
 /*This file was created automatically with the makeMaster.py script.
-Time of creation: 2018-06-15 23:39:57.833775*/
+Time of creation: 2018-06-16 00:40:00.669849*/
 
 /* !!! Begin File calltoaction.css !!! */
 
@@ -118,6 +118,7 @@ a:active { color:#F36E21; }
 
 /* Splash Image */
 #splash{
+    z-index: -1;
     padding: 5em 0;
     color: white;
     background-image: url("../images/cover-alt.jpg");
@@ -147,14 +148,6 @@ a:active { color:#F36E21; }
 
 @media screen and (max-width: 600px) {
   #splash{
-    padding: 5em 0;
-    color: white;
-    /*padding: 5em 0;*/
-    background-image: url("../images/cover-alt.jpg");
-    background-position: relative;
-    position: relative;
-    background-repeat: repeat;
-    background-attachment: fixed;
     background-size: 450%;
   }
 }
@@ -165,8 +158,7 @@ a:active { color:#F36E21; }
 
 /*The basic bar*/
 .topnav {
-  color:#000;
-  z-index: 1;
+  color: white;
   background-color: #333;
   position: fixed;
   top: 0em;
@@ -189,6 +181,19 @@ a:active { color:#F36E21; }
 .topnav #active {
   background-color: #F36E21;
   color: black;
+}
+
+#header{
+  position: fixed;
+  top: 0em;
+  right: 0em;
+  background-color: #F36E21;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-weight: bold;
 }
 
 .topnav .icon {
@@ -288,5 +293,11 @@ a:active { color:#F36E21; }
   }
   .topnav {
     background-color: #F36E21;
+  }
+}
+  
+@media screen and (max-width: 930px) {
+  #header{
+    display: none;
   }
 }

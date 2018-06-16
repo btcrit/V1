@@ -1,5 +1,6 @@
 /* Splash Image */
 #splash{
+    z-index: -1;
     padding: 5em 0;
     color: white;
     background-image: url("../images/cover-alt.jpg");
@@ -29,14 +30,6 @@
 
 @media screen and (max-width: 600px) {
   #splash{
-    padding: 5em 0;
-    color: white;
-    /*padding: 5em 0;*/
-    background-image: url("../images/cover-alt.jpg");
-    background-position: relative;
-    position: relative;
-    background-repeat: repeat;
-    background-attachment: fixed;
     background-size: 450%;
   }
 }

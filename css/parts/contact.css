@@ -1,8 +1,13 @@
 /* Contact Box */
-div.contact {
+#contact {
     position: fixed;
     bottom: 0em;
     left: 0;
     width: 2em;
     background-color: #333;
+}
+
+#contact img{
+  width:2em;
+  height:2em;
 }

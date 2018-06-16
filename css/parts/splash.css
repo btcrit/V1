@@ -2,7 +2,6 @@
 #splash{
     padding: 5em 0;
     color: white;
-    /*padding: 5em 0;*/
     background-image: url("../images/cover-alt.jpg");
     background-position: relative;
     position: relative;
@@ -38,6 +37,6 @@
     position: relative;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 200%;
+    background-size: 450%;
   }
 }

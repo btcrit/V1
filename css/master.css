@@ -1,5 +1,5 @@
 /*This file was created automatically with the makeMaster.py script.
-Time of creation: 2018-06-15 23:19:28.092930*/
+Time of creation: 2018-06-15 23:39:57.833775*/
 
 /* !!! Begin File calltoaction.css !!! */
 
@@ -18,7 +18,7 @@ Time of creation: 2018-06-15 23:19:28.092930*/
 /* !!! Begin File contact.css !!! */
 
 /* Contact Box */
-div.contact {
+#contact {
     position: fixed;
     bottom: 0em;
     left: 0;
@@ -26,6 +26,10 @@ div.contact {
     background-color: #333;
 }
 
+#contact img{
+  width:2em;
+  height:2em;
+}
 
 /* !!! Begin File content.css !!! */
 
@@ -46,6 +50,8 @@ div.contact {
 #content h1{
     text-align: center;
 }
+
+
 
 /* !!! Begin File footer.css !!! */
 
@@ -114,7 +120,6 @@ a:active { color:#F36E21; }
 #splash{
     padding: 5em 0;
     color: white;
-    /*padding: 5em 0;*/
     background-image: url("../images/cover-alt.jpg");
     background-position: relative;
     position: relative;
@@ -150,7 +155,7 @@ a:active { color:#F36E21; }
     position: relative;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 200%;
+    background-size: 450%;
   }
 }
 
@@ -158,6 +163,7 @@ a:active { color:#F36E21; }
 
 /* Top Navigation Bar */
 
+/*The basic bar*/
 .topnav {
   color:#000;
   z-index: 1;
@@ -168,6 +174,7 @@ a:active { color:#F36E21; }
   width: 100%;
 }
 
+/*Basic Links*/
 .topnav a {
   float: left;
   display: block;
@@ -178,7 +185,8 @@ a:active { color:#F36E21; }
   font-size: 17px;
 }
 
-.topnav .active {
+/*A link id for the active page*/
+.topnav #active {
   background-color: #F36E21;
   color: black;
 }
@@ -273,7 +281,7 @@ a:active { color:#F36E21; }
     width: 100%;
     text-align: left;
   }
-  .topnav .active {
+  .topnav #active {
     background-color: #F36E21;
     color: black;
     text-align: left;

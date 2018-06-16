@@ -1,5 +1,6 @@
 /* Top Navigation Bar */
 
+/*The basic bar*/
 .topnav {
   color:#000;
   z-index: 1;
@@ -10,6 +11,7 @@
   width: 100%;
 }
 
+/*Basic Links*/
 .topnav a {
   float: left;
   display: block;
@@ -20,7 +22,8 @@
   font-size: 17px;
 }
 
-.topnav .active {
+/*A link id for the active page*/
+.topnav #active {
   background-color: #F36E21;
   color: black;
 }
@@ -115,7 +118,7 @@
     width: 100%;
     text-align: left;
   }
-  .topnav .active {
+  .topnav #active {
     background-color: #F36E21;
     color: black;
     text-align: left;

@@ -1,0 +1,300 @@
+BTCRIT eBoard meeting
+Saturday July 14th 2018
+Minutes
+Unofficial
+Informal
+Taken by Ethan, Webmaster
+Sergio took official minutes, checkem out.
+
+TL;DR
+Sergio (secretary)
+ - Is going to rub some magic on the DNS system
+ - reserve toilet bowl for first meeting
+ - Add new members to mailing list as they join the club
+Ethan (Website)
+ - Has lots to do and little time.
+ - If ya'll send me content I'll use it.
+ - SignIn via website
+ - PowerPoint for first meeting
+Ryan
+ - Posts on Facebook, Discord
+Joe
+ - talk to someone about club fair lead
+Hector
+ - Public outreach, start decentralized interest group under sparc3
+All
+ - Financial certification if not done already
+
+
+~~~~~ Old Business ~~~~~
+Serg
+- Talk to dan about AWS grant
+Joe
+- Attempts to speak but google hangouts is laggin' hard
+- two to three months for application, still waiting on reply.
+Serg
+- How do we know about status
+Joe
+- Sorry joe can't hear your mic
+- something like "have to ask him again about that"
+
+Sergio drops the call
+Sergio re-joins the call
+[Google says there are two of him now lol]
+Original sergio dies, only the new sergio remains
+
+Joe keeps trying to balance his phone
+it keeps falling over
+Ethan laughs
+
+Sergio opens a document
+
+Sergio
+- Yall, Do the financial cert thing. We need that to happen.
+
+Serg edits his official report live via screenshare
+
+Ryan
+- What will we use the aws grant for?
+Serg
+- Projects and such, whatever we need.
+Ryan
+- So Cryptographic projects?
+[Crowd agrees, yay!]
+
+{Side Note from Me: It'd be hella cool if we ran some nodes as a club.}
+
+Serg
+- Cloudflare, let's talk about that
+Joe
+- Send email to domains.com
+Serg
+- Let's enable dnssec
+- Proxying
+- Analytics and ddos protection
+- mitm the ssl
+
+[Crowd agrees, enable proxying]
+Ethan agrees relucantly.
+
+Sergio
+- I will enable proxying on cloudflare within the next 5 minutes
+Ryan
+- What's the issue with DNSSec
+Sergio
+- Domains.Com is the issue. We should move registrars to namecheap or something.
+- namecheap transfer will enable dnssec instant.
+Joe
+- Domains.com is annoying to work with
+Sergio
+- $9.69 to transfer to domains.com
+
+[Crowd agrees, transfer to namecheap]
+
+Sergio
+- I'll enable [lists many other things] on cloudflare
+
+General discussion on HSTS
+
+Joe
+- Is there any risk to hsts in terms of availability
+Serg
+- not really
+- I'll enable [lists more things]
+
+Serg
+- All okay?
+
+Ethan
+- As long as the html gets shipped out, I'm okay with whatever.
+
+Serg
+- are the notes on the website
+Ethan
+- no link, but they're there.
+
+Joe
+- Put these on the website:
+- Mailing List Link
+- Meeting Minutes
+- Links to social media
+
+Ethan discusses styling (LESS preprocessor, color scheme)
+Serg
+- Where did this hamster come from?
+Joe
+- Tells the story of the hamster logo
+
+Should we change the logo
+
+vote: yes
+
+Ethan brings up MIT's logo
+Joe: We should colab with MIT's club
+
+Ryan
+- Keep the hamster mascot
+
+Joe
+- Let's move on to important things
+- We need to plan the first 5 meetings or so
+[Joe didn't say it yet but we'll plan clubfair too]
+{Hector will bring this up later}
+
+Serg
+- Where to host the club meetings this year
+
+Joe
+- Somewhere in GCCIS?
+
+Ethan
+- First meeting will be huge
+
+Joe
+- Do meeting1 in the innovation center
+Serg
+- where is that
+Ethan
+- the Toilet bowl
+
+Serg
+- First meeting when?
+
+Serg
+- Ethan, enable multifactor on Cloudflare
+
+[Searching for ads on WhenToMeet - Where are they?]
+
+More discussion on how to reserve the toilet bowl
+
+Lots of discussion on what room to reserve
+
+Hector
+- Be aware of the Tiger Activites Gala (Clubfair)
+
+> First meeting in Simone Center, Aug 29th
+> room 2690 in Golisano, Wednesdays, 7->8PM?
+> last meeting Dec5th
+
+Hector
+- Clubfair?
+
+General Discussion
+
+Club Fair Aug25th
+Serg registered us for it
+Who to take Point?
+- Dan for point man for that?
+- Jack? (treasurer last year)
+
+Joe's phone falls down again
+
+Hector volunteers as point man for club fair if all else fails
+
+Joe
+- Let's talk about hack nights later
+- Somebody needs to manage posting on Facebook, etc.
+Ryan volunteers for social media manager
+
+Serg
+- Email lists
+Joe
+- Eblaster last year is willing to continue
+Hector
+- He stopped after semester1 last year
+Joe
+- Talked to him end of 2, said he would continue
+Hector
+- I thought that was my main role as public relations guy
+
+Serg
+- Send via OWA account (btc@rit.edu)
+
+Mailing list is currently handled through mailChimp
+Serg will manually add new members to the mailing list
+
+Joe
+- First meeting?
+- Each of us should do a presentation
+[agreement by crowd]
+
+[sign-in system on the website]
+
+First Meeting plan
+- What's new in BTC?
+- How the Club Works
+- What various currencies are
+- How blockchain and decentralized things work, what they are
+- eBoard Intros
+
+Ethan
+- Volunteers to run that powerpoint/intro etc.
+
+Club = Non-denominational.
+Let's avoid any BTC/BCH Politics.
+
+Hector
+- I'd like to run a decentralized interest group under SparC3
+- Bridge between ourselves and the cybersecurity crowd at RIT
+- Not specificaly Blockchain
+
+[Agreement of crowd]
+
+Serg
+- Why not make it our interest group
+- colaborative interest group?
+
+Discussion
+- Formally it will be under SparC3 as of now
+- If we want to colab we'll have to talk to SparC3
+- We can still endorse and associate with the group
+- Hell, most of us will become members of it.
+
+joe
+- we need posters
+- Let's vote on some designs and go with them
+
+Ryan
+- Can I bring up the constitution
+- Un-updated version in our github
+- I believe we need to have this
+
+Hector/Sergio
+- It's submitted
+- Not a top priority
+- let's aim for semester2 this year
+
+Ryan
+- I'll brush it up and bring it in
+[Crowd: agreement]
+
+Joe
+- First meeting?
+
+Ethan
+- I'll take lead, I'd like ya'll to be up front with me
+
+Serg
+- Any other topics?
+
+Hector
+- How's BrickCoin
+
+Group
+- Lol
+- A group project would be a good idea tho
+
+Ethan
+- destler-doubloons.com
+
+Hector
+- that 1mil capmaign
+
+"They Want Money" - Ryan; "Don't we All" - Serg
+
+We need a parking structure
+
+discussion devolves into off topic RIT
+
+meeting officially ends
+
